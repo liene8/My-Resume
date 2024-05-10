@@ -1,0 +1,51 @@
+@page {
+    size: letter;
+}
+
+.resume-container {
+    width: 8.5in; 
+    height: 11in; 
+    float: left;
+    margin: 0 auto; 
+    padding: 1in;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.resume-container * {
+    font-family: Arial, sans-serif;
+}
+
+.resume-container h2 {
+    font-weight: bold; 
+    font-size: 12pt;
+}
+
+.resume-container h3 {
+    font-weight: bold; 
+    font-size: 11pt;
+}
+
+.contact-info {
+    position: relative; 
+    overflow: hidden;
+}
+
+.right-image {
+    position: absolute; 
+    top: 96px; 
+    right: 100px; 
+}
+
+.resume-container p,
+.resume-container ul,
+.resume-container ol {
+    text-align: justify;
+    font-size: 11pt;
+}
+
+
+.resume-container .skills {
+    column-count: 2; /* Set the number of columns */
+    column-gap: 60px; /* Add some gap between columns */
+}

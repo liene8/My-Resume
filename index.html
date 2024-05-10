@@ -1,101 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-    <heading>
-        <meta charset="UTF-8" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="resume.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
         <title>My Resume</title>
-    </heading>
+    </head>
     <body>
-        <h1>LIENE ROSE S. GIL</h1>
-        <img src="./Images/My photo.JPG" height="200" alt="Photo of Liene Rose S. Gil" />
-        <h2>CAREER OBJECTIVE</h2>
-        <hr />
-        <p>
-            Searching an extraordinary career with a highly reputable institution that yield a great opportunity<br />
-            to progress and contribute my knowledge, skills and abilities of being a beginner web developer<br />
-            to the IT companies.<br />
-        </p>
-        <h2>EDUCATION</h2>
-        <hr />
-        <h3>Bachelor of Science in Office Administration</h3>
-        <p>Central Mindanao University | University Town, Musuan Maramag, Bukidnon</p>
-        <p>SY 2013-2017</p>
-        <h2>ACCOMPLISHMENTS</h2>
-        <ul>
-            <li>Grant-in-Aid Scholar | S.Y. 2015-2017</li>
-            <li>Intel Easy Steps Computer Literacy Certification | TEVSAPHIL Inc.</li>
-            <li>Supervised Field Experience (SFE) Certification | Landbank of the Philippines</li>
-            <li>Supervised Field Experience (SFE) Certification | Central Mindanao University, Office of the University Registrar</li>
-        </ul>
-        <h2>EXPERIENCE</h2>
-        <hr />
-        <h3>Accounting Assistant</h3>
-        <h3><i>Breadtalk Philippines Inc.</i></h3> 
-        <p>March 3, 2018 - January 25, 2019</p>
-        <ul>
-            <li>In-charge with daily inventory</li>
-            <li>Processing of delivery order</li>
-            <li>Making of Monthly report for delivery order</li>
-            <li>Facilitate with shipping of products from one destination to another</li>
-            <li>Prepares load for shipment</li>
-            <li>Keep in track of shipment packing, cost of shipment, arrival time and other important factors in the shipping process</li>
-        </ul>
-        <h3>Accounting Staff</h3>
-        <h3><i>SS Fab Metal Services</i></h3>
-        <p>March 6, 2019 - June 31, 2023</p>
-        <ul>
-            <li>Process Weekly Payroll for Production Workers</li>
-            <li>Weekly Payroll Internal Monthly reports</li>
-            <li>SSS, Pag-ibig & Philhealth ER-Share Internal Monthly reports</li>
-            <li>Making DTR Summary</li>
-            <li>Counter Checking Overtime hours with Costing records</li>
-            <li>Vacation Leave Summary</li>
-            <li>Breakdown of Cash Advances Internal Monthly Reports</li>
-            <li>SSS, Pag-ibig & Philhealth Remittances</li>
-            <li>SSS Salary & Calamity Loan Remittances</li>
-            <li>Pag-ibig MPL & Calamity Loan Remittances</li>
-            <li>Making SSS & Pag-ibig loan Summary</li>
-            <li>Making SSS R1-A & Philhealth ER-2 for new employee reports</li>
-            <li>Process Employee's SSS Sickness Benefit</li>
-            <li>Data entry & Gathering requirements for SSS, Pag-ibig & Philhealth Clearance</li>
-            <li>Process BIR 1902 - TIN Registration in BIR ORUS Account</li>
-            <li>Process BIR 1905 - Updating in BIR ORUS Account</li>
-            <li>Analyzing & Data entry for BIR 1601-C (BIR Withholding Tax) Monthly reports</li>
-            <li>Process BIR Alphalist 1604-C Annual reports</li>
-            <li>Process BIR 2316 Annual reports</li>
-            <li>Making Memo Summary of Employees</li>
-            <li>Front desk (Receiving phone calls from customers & Suppliers and forwarding calls to in-charge)</li>
-            <li>Receiving Showroom visitors/customers & forward inquiry to Qoutation/Costing & Accounting receivable in-charge</li>
-            <li>Making Delivery Receipts</li>
-        </ul>
-        <h2>SKILLS AND KNOWLEDGE</h2>
-        <hr />
-        <ul>
-            <li>Multitasking Skills: ⭐️⭐️⭐️⭐️⭐️</li>
-            <li>Analytical Skills: ⭐️⭐️⭐️⭐️</li>
-            <li>Interpersonal Skills: ⭐️⭐️⭐️</li>
-            <li>Organizational Skills: ⭐️⭐️⭐️⭐️</li>
-            <li>Microsoft Office Suite: ⭐️⭐️⭐️</li>
-            <li>Basic Accounting: ⭐️⭐️⭐️</li>
-            <li>Inventory Management: ⭐️⭐️⭐️⭐️</li>
-            <li>Principles of Marketing: ⭐️⭐️⭐️</li>
-            <li>Principles of Customer and Public Relations: ⭐️⭐️⭐️⭐️</li>
-            <li>Business Report Writing: ⭐️⭐️⭐️</li>
-            <li>Business Communication: ⭐️⭐️⭐️</li>
-            <li>Basic background in HTML, CSS & JavaScript: ⭐️⭐️</li>
-        </ul>
-        <h2>REFERENCE</h2>
-        <hr />
-        <h3>Naome V. Bolando</h3>
-        <p>SS Fab Metal Services</p>
-        <p><u>naome_bolando@yahoo.com</u></p>
-        <h2>OTHER</h2>
-        <hr />
-        <ul>
-            <li><a href="./about.html">My Hobbies</a></li>
-            <li><a href="./contact.html">Contact Me</a></li>
-        </ul>
-        <footer>
-            <p>© Liene Rose S. Gil. All rights reserved.</p>
-        </footer>
+        <div class="resume-container">
+            <h2 class="contact-info">LIENE ROSE S. GIL</h2>
+                <img src="./Images/My photo.JPG" height="142" alt="Photo of Liene Rose S. Gil" class="right-image">
+                <p>
+                    Permanent Address: Sabang, Danao City, Cebu<br />
+                    Current Address: Sitio Lumbang, Pulpogan, Consolacion, Cebu<br />
+                    09974188686 | <a href="mailto:lienerose88@gmail.com">lienerose88@gmail.com</a><br />
+                </p>
+            <h2>CAREER OBJECTIVE</h2>
+            <hr />
+                <p>
+                    Searching an extraordinary career with a highly reputable institution that yield a great opportunity
+                    to progress and contribute my knowledge, skills and abilities of being a beginner App or Web developer
+                    to the IT companies.
+                </p>
+            <h2>SKILLS AND KNOWLEDGE</h2>
+            <hr />
+                <ul class="skills">
+                    <li>JavaScript: ⭐️⭐️⭐️⭐️</li>
+                    <li>HTML: ⭐️⭐️⭐️⭐️⭐️</li>
+                    <li>CSS: ⭐️⭐️⭐️⭐️</li>
+                    <li>Bootstrap: ⭐️⭐️⭐️⭐️</li>
+                    <li>jQuery: ⭐️⭐️⭐️⭐️</li>
+                    <li>Node.js, Express.js & EJS : ⭐️⭐️⭐️⭐️</li>
+                    <li>Multitasking Skills: ⭐️⭐️⭐️⭐️⭐️</li>
+                    <li>Analytical Skills: ⭐️⭐️⭐️⭐️</li>
+                    <li>Interpersonal Skills: ⭐️⭐️⭐️</li>
+                    <li>Organizational Skills: ⭐️⭐️⭐️⭐️</li>
+                    <li>Microsoft Office Suite: ⭐️⭐️⭐️</li>
+                    <li>Basic Accounting: ⭐️⭐️⭐️</li>
+                    <li>Inventory Management: ⭐️⭐️⭐️⭐️</li>
+                    <li>Principles of Marketing: ⭐️⭐️⭐️</li>
+                    <li>Business Report Writing: ⭐️⭐️⭐️</li>
+                    <li>Business Communication: ⭐️⭐️⭐️</li>
+                </ul>
+            <h2>EDUCATION</h2>
+            <hr />
+                <h3>Bachelor of Science in Office Administration</h3>
+                    <p>
+                        Central Mindanao University | University Town, Musuan Maramag, Bukidnon<br />
+                        SY 2013-2017
+                    </p>
+            <h2>TRAININGS AND ACCOMPLISHMENTS </h2>
+            <ul>
+                <li>The Complete 2023 Web Development Bootcamp by Dr. Angela Yu | Udemy </li>
+                <li>Created a To Do List Application - <a href="https://github.com/liene8/To-Do-List-Application-Portfolio.git">View here</a></li>
+                <li>Grant-in-Aid Scholar | S.Y. 2015-2017</li>
+                <li>Intel Easy Steps Computer Literacy Certification | TEVSAPHIL Inc.</li>
+                <li>Supervised Field Experience (SFE) Certification | Landbank of the Philippines</li>
+                <li>Supervised Field Experience (SFE) Certification | Central Mindanao University, Office of the University Registrar</li>
+            </ul>
+            <h2>EXPERIENCE</h2>
+            <hr />
+                <h3>Accounting Staff</h3>
+                <h3><i>SS Fab Metal Services</i></h3>
+                    <p>March 6, 2019 - June 31, 2023</p>
+                    <ul>
+                        <li>Process Weekly Payroll for Production Workers</li>
+                        <li>Weekly Payroll Internal Monthly reports</li>
+                        <li>SSS, Pag-ibig & Philhealth ER-Share Internal Monthly reports</li>
+                        <li>Making DTR Summary</li>
+                        <li>Counter Checking Overtime hours with Costing records</li>
+                        <li>Vacation Leave Summary</li>
+                        <li>Breakdown of Cash Advances Internal Monthly Reports</li>
+                        <li>SSS, Pag-ibig & Philhealth Remittances</li>
+                        <li>SSS Salary & Calamity Loan Remittances</li>
+                        <li>Pag-ibig MPL & Calamity Loan Remittances</li>
+                        <li>Making SSS & Pag-ibig loan Summary</li>
+                        <li>Making SSS R1-A & Philhealth ER-2 for new employee reports</li>
+                        <li>Process Employee's SSS Sickness Benefit</li>
+                        <li>Data entry & Gathering requirements for SSS, Pag-ibig & Philhealth Clearance</li>
+                        <li>Process BIR 1902 - TIN Registration in BIR ORUS Account</li>
+                        <li>Process BIR 1905 - Updating in BIR ORUS Account</li>
+                        <li>Analyzing & Data entry for BIR 1601-C (BIR Withholding Tax) Monthly reports</li>
+                        <li>Process BIR Alphalist 1604-C Annual reports</li>
+                        <li>Process BIR 2316 Annual reports</li>
+                        <li>Making Memo Summary of Employees</li>
+                        <li>Front desk (Receiving phone calls from customers & Suppliers and forwarding calls to in-charge)</li>
+                        <li>Receiving Showroom visitors/customers & forward inquiry to Qoutation/Costing & Accounting receivable in-charge</li>
+                        <li>Making Delivery Receipts</li>
+                    </ul>
+                <h3>Accounting Assistant</h3>
+                <h3><i>Breadtalk Philippines Inc.</i></h3> 
+                    <p>March 3, 2018 - January 25, 2019</p>
+                    <ul>
+                        <li>In-charge with daily inventory</li>
+                        <li>Processing of delivery order</li>
+                        <li>Making of Monthly report for delivery order</li>
+                        <li>Facilitate with shipping of products from one destination to another</li>
+                        <li>Prepares load for shipment</li>
+                        <li>Keep in track of shipment packing, cost of shipment, arrival time and other important factors in the shipping process</li>
+                    </ul>
+            <h2>REFERENCE</h2>
+            <hr />
+                <h3>Naome V. Bolando</h3>
+                    <p>
+                        SS Fab Metal Services <br />
+                        Contact Number: +639278429288 <br />
+                        Email Address: <a href="mailto:naome_bolando@yahoo.com">naome_bolando@yahoo.com</a>
+                    </p>
+            <h2>OTHER</h2>
+            <hr />
+                <ul>
+                    <li><a href="./about.html">My Hobbies</a></li>
+                    <li><a href="./contact.html">Contact Me</a></li>
+                </ul>
+            <footer>
+                <p>© Liene Rose S. Gil. All rights reserved.</p>
+            </footer>
+        </div>
     </body>
 </html>
